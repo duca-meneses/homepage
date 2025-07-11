@@ -16,8 +16,8 @@ html, body {
 }
 
 .profile-picture img {
-    width: 35vh;
-    margin: 1vh 3vh;
+    width: 25vh;
+    margin: 2vh;
     border-radius: 50%;
 }
 
