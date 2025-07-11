@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #FEF3E2;
+    color: black;
+}
+
+html, body {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 95%;
+}
+
+.profile-picture img {
+    width: 35vh;
+    margin: 1vh 3vh;
+    border-radius: 50%;
+}
+
+.title {
+    text-align: center;
+}
+
+.description {
+    text-align: center;
+}
+
+.description p {
+    margin: 3vh;
+    width: 49vh;
+}
+
+@media only screen and (max-width: 768px) {
+    .description p {
+        width: 80%;
+    }
+}
+
+.my-links {
+    text-align: center;
+}
+
+.my-links .button a {
+    display: inline-block;
+    width: 45vh;
+    height: 50px;
+    line-height: 50px;
+    margin: 5px;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.my-links .button a:hover {
+    color: white;
+}
+
+
+.blog {
+    background-color: none;
+    border: 2px solid #febb19;
+}
+
+.blog:hover {
+    background-color: #febb19;
+    transition: 0.15s;
+}
+
+.instagram {
+    background-color: none;
+    border: 2px solid #e1306c;
+}
+
+.instagram:hover {
+    background-color: #e1306c;
+    transition: 0.15s;
+}
+
+.linkedin {
+    background-color: none;
+    border: 2px solid #0a66c2;
+}
+
+.linkedin:hover {
+    background-color: #0a66c2;
+    transition: 0.15s;
+}
+
+.github  {
+    background-color: none;
+    border: 2px solid #c9510c;
+}
+
+.github:hover {
+    background-color: #c9510c;
+    transition: 0.15s;
+}
+
+.portfolio {
+    background-color: none;
+    border: 2px solid #D84040;
+}
+
+.portfolio:hover {
+    background-color: #D84040;
+    transition: 0.15s;
+}
+
+.resume {
+    background-color: none;
+    border: 2px solid #D7D7D7;
+}
+
+.resume:hover {
+    background-color: #D7D7D7;
+    transition: 0.15s;
+}
