@@ -4,7 +4,15 @@ const closeModal = document.getElementById("close-modal");
 
 resumeBtn.addEventListener("click", function (e) {
   e.preventDefault();
-  modal.style.display = "block";
+  
+  // Verifica se é dispositivo móvel
+  if (window.innerWidth <= 1024) {
+    // Em dispositivos móveis, inicia o download direto
+    window.location.href = "assets/curriculo.pdf";
+  } else {
+    // Em desktop, abre o modal
+    modal.style.display = "block";
+  }
 });
 
 closeModal.addEventListener("click", function () {
