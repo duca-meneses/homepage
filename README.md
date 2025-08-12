@@ -1,9 +1,13 @@
 # Criando meu site pessoal
 
 
-### link: em breve
+### link: carloseduardo.online
 
 ### Stack utilizada:
 
 - HTML
 - CSS
+- JS
+- Nginx
+- DOCKER
+- Fly.io
