@@ -8,7 +8,7 @@ resumeBtn.addEventListener("click", function (e) {
   // Verifica se é dispositivo móvel
   if (window.innerWidth <= 1024) {
     // Em dispositivos móveis, inicia o download direto
-    window.location.href = "assets/curriculo.pdf";
+    window.location.href = "assets/curriculo-carlos-eduardo.pdf";
   } else {
     // Em desktop, abre o modal
     modal.style.display = "block";
